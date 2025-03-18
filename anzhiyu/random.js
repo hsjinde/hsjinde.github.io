@@ -1,3 +1,3 @@
-var posts=["jinde/article/","jinde/hello-world/"];function toRandomPost(){
+var posts=["jinde/hello-world/","jinde/article/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
